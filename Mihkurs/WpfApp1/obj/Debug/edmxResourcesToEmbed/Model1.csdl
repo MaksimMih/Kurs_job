@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="fitness_kpModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Userman" Relationship="Self.FK_Userman_Role" FromRole="Role" ToRole="Userman" />
+    <Property Name="Bas" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Duration" Type="Double" />
+    <NavigationProperty Name="Userman" Relationship="Self.FK_Userman_Serivce" FromRole="Service" ToRole="Userman" />
+    <Property Name="img" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Userman">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="login" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Patronomyc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="BirthName" Type="DateTime" Precision="0" />
+    <Property Name="Roleid" Type="Int32" />
+    <Property Name="Direction" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Salary" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Rate" Type="Double" />
+    <Property Name="Achievements" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Education" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="photo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="orderid" Type="Int32" />
+    <Property Name="Serviceid" Type="Int32" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Userman_Role" FromRole="Userman" ToRole="Role" />
+    <NavigationProperty Name="Service" Relationship="Self.FK_Userman_Serivce" FromRole="Userman" ToRole="Service" />
+  </EntityType>
+  <Association Name="FK_Userman_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="Userman" Type="Self.Userman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Userman">
+        <PropertyRef Name="Roleid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Userman_Serivce">
+    <End Role="Service" Type="Self.Service" Multiplicity="0..1" />
+    <End Role="Userman" Type="Self.Userman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Userman">
+        <PropertyRef Name="Serviceid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="fitness_kpEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Service" EntityType="Self.Service" />
+    <EntitySet Name="Userman" EntityType="Self.Userman" />
+    <AssociationSet Name="FK_Userman_Role" Association="Self.FK_Userman_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Userman" EntitySet="Userman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Userman_Serivce" Association="Self.FK_Userman_Serivce">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="Userman" EntitySet="Userman" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

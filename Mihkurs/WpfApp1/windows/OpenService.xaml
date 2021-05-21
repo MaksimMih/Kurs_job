@@ -40,7 +40,7 @@
                             <Image
                         Width="64" 
                         Height="64"
-                        Source="{Binding Path=ImagePreview}" />
+                        Source="{Binding Path=ImagePreviewService}" />
 
                         
 

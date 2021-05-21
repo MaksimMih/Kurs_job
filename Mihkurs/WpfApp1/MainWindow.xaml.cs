@@ -27,7 +27,19 @@ namespace WpfApp1
             }
         }
     }*/
+    public partial class Service
+    {
 
+        public Uri ImagePreviewService
+        {
+            get
+            {
+                var imageName = System.IO.Path.Combine(Environment.CurrentDirectory, img ?? "");
+                return System.IO.File.Exists(imageName) ? new Uri(imageName) : new Uri("pack://application:,,,/img/picture.jpg");
+            }
+        }
+
+    }
 
     public partial class Userman
     {

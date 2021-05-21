@@ -6,6 +6,17 @@
         xmlns:local="clr-namespace:WpfApp1.windows"
         mc:Ignorable="d"
         Title="ShowUser" Height="450" Width="1000">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="BorderBrush"  Value="DarkGray"/>
+            <Setter Property="FontFamily"  Value="Segoe Black"/>
+            <Setter Property="Foreground"  Value="Black"/>
+            
+            
+            
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>

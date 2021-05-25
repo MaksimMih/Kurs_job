@@ -1,0 +1,6 @@
+C:\Users\User\T1mba\Desktop\курсач пейн\MihKursTest\MihKursTest\bin\Debug\MihKursTest.dll
+C:\Users\User\T1mba\Desktop\курсач пейн\MihKursTest\MihKursTest\bin\Debug\MihKursTest.pdb
+C:\Users\User\T1mba\Desktop\курсач пейн\MihKursTest\MihKursTest\obj\Debug\MihKursTest.csprojAssemblyReference.cache
+C:\Users\User\T1mba\Desktop\курсач пейн\MihKursTest\MihKursTest\obj\Debug\MihKursTest.csproj.CoreCompileInputs.cache
+C:\Users\User\T1mba\Desktop\курсач пейн\MihKursTest\MihKursTest\obj\Debug\MihKursTest.dll
+C:\Users\User\T1mba\Desktop\курсач пейн\MihKursTest\MihKursTest\obj\Debug\MihKursTest.pdb

@@ -17,7 +17,7 @@
             VerticalAlignment="Top"
            MaxHeight="200" 
            MaxWidth="200" 
-           Source="{Binding CurrentService.ImageUri}" />
+           Source="{Binding CurrentService.ImagePreview}" />
 
         <StackPanel Grid.Column="1" Orientation="Horizontal" Visibility="{Binding NewProduct}">
             <Label Content="Идентификатор услуги: "/>

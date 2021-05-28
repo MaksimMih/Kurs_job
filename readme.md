@@ -19,7 +19,7 @@
     <td style="text-align: right; border: none; height: 20em;">
         <div style="float: right;" align="left">
             <b>Разработал</b>: <br/>
-            Новосёлов Кирилл Алексеевич <br/>
+            Михайлов Максим Алексеевич <br/>
             <b>Проверил</b>: <br/>
             Колесников Евгений Иванович
         </div>
@@ -34,7 +34,7 @@
 
 <div style="page-break-after: always;"></div>
 
-https://github.com/kirknovos/Kursovoy_Project
+https://github.com/MaksimMih/Kurs_job
 
 # Содержание
 

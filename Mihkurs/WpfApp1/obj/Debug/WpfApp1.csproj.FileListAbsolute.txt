@@ -26,3 +26,31 @@ C:\Users\User\T1mba\Desktop\курсач пейн\Mihkurs\WpfApp1\obj\Debug\wind
 C:\Users\User\T1mba\Desktop\курсач пейн\Mihkurs\WpfApp1\obj\Debug\windows\OpenService.baml
 C:\Users\User\T1mba\Desktop\курсач пейн\Mihkurs\WpfApp1\obj\Debug\windows\ServiceWindow.g.cs
 C:\Users\User\T1mba\Desktop\курсач пейн\Mihkurs\WpfApp1\obj\Debug\windows\ServiceWindow.baml
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\WpfApp1.exe
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\EntityFramework.dll
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\EntityFramework.xml
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\bac\Kurs_job\Mihkurs\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\windows\OpenService.g.cs
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\windows\ServiceWindow.g.cs
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\windows\ShowUser.g.cs
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\App.g.cs
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\MainWindow.baml
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\windows\OpenService.baml
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\windows\ServiceWindow.baml
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\windows\ShowUser.baml
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.exe
+C:\bac\Kurs_job\Mihkurs\WpfApp1\obj\Debug\WpfApp1.pdb

@@ -62,7 +62,7 @@ https://github.com/MaksimMih/Kurs_job
 
 ### Приложение было разработанно в Visual Studio, пример работы программы:
 ### Главное окно:
-![MainWindow](./img/MainWindow.png)
+![MainWindow](./img/MainWindow.PNG)
 #### Прмер кода разметки страницы:
 ### Логин: Admin
 ### Пароль: 1111

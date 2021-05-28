@@ -45,26 +45,28 @@ https://github.com/MaksimMih/Kurs_job
 # Теоретическая-часть
 ## Диаграммы
 
-### Предметная область Интернет провайдер.Подсистема работы с товарами.
+### Предметная область  Фитнес-центр.Подсистема работы с сотрудниками.
 
-### Диаграмма Use Case:
 
-![Use case](./img/UseCase.png)
+
+
 ### Диаграмма ER:
 ![ER диаграмма](./img/ERD.png)
-### Диаграмма Состояний:
-![State Mashine](./img/StateMashine.png)
-### CСпецификация прецентдентов Use Case:
-![Спецификация 1](./img/SpecificationUseCase1.png)
-![Спецификация 2](./img/SpecificationUseCase2.png)
+
+
+
 
 # Практическая часть
 ## Программирование С#
+
 
 ### Приложение было разработанно в Visual Studio, пример работы программы:
 ### Главное окно:
 ![MainWindow](./img/MainWindow.png)
 #### Прмер кода разметки страницы:
+### Логин: Admin
+### Пароль: 1111
+
 ```xml
 <Window x:Class="WpfApp1.windows.ShowUser"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
